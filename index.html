@@ -1,11 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phillip MacNeal</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phillip MacNeal</title>
+<meta name="description" content="Phillip MacNeal — portfolio">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600&family=Barlow+Condensed:wght@500;600;700&family=Michroma&display=swap">
+<link rel="preload" as="image" href="img/marble.jpg">
+<link rel="stylesheet" href="style.css">
+<link rel="expect" href="#hero" blocking="render">
 </head>
-<body>
+<body class="home">
+
+<div class="marble"></div>
+<div class="hatch" aria-hidden="true"></div>
+
+<header class="hero" id="hero">
+  <div class="hero__media" role="img" aria-label="Aerial view of the Philadelphia skyline"></div>
+  <h1 class="hero__name">PHILLIP <span>MACNEAL</span></h1>
+</header>
+
+<nav class="menu" aria-label="Primary">
+  <ul>
+    <li><a href="gallery.html"><i class="hl"></i><span class="tag" aria-hidden="true">PAGE_02<i>//</i></span><span class="lbl lbl-gallery">GALLERY</span></a></li>
+    <li><a href="resume.html"><i class="hl"></i><span class="tag" aria-hidden="true">PAGE_03<i>//</i></span><span class="lbl lbl-resume">RESUME</span></a></li>
+    <li><a href="about.html"><i class="hl"></i><span class="tag" aria-hidden="true">PAGE_04<i>//</i></span><span class="lbl lbl-about">ABOUT</span></a></li>
+  </ul>
+</nav>
+
 </body>
 </html>
